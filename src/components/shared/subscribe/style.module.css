@@ -1,0 +1,87 @@
+.backgroundColor{
+    background-image: url("../../../../public/img/bg/subsribe1-bg.png") !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+}
+
+
+.subsribeAll.subsribeAll1.sp2 {
+    background: none;
+    position: relative;
+  }
+  
+  /* .subsribe-all.subsribe-all1.sp2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(/public/img/bg/subsribe1-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -3;
+  } */
+  .subsribeAll {
+    /* background-color: #2657F2; */
+  }
+  
+  .comonSubsribeAllInput input {
+    padding: 21px;
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+    background: #fff;
+  }
+  
+  .subsribeBtn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
+  .comonSubsribeAllInput {
+    position: relative;
+  }
+  .allSubsribeHadding {
+    padding-right: 100px;
+  }
+  
+  @media screen and (max-width: 769px) {
+    .allSubsribeHadding {
+      padding-right: 0;
+    }
+  }
+  
+  .allSubsribeHadding h1 {
+    color: #FFF !important;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 120% */
+  text-transform: capitalize;
+  }
+  .allSubsribeHadding p {
+    color: #fff !important;
+    padding-top: 16px !important;
+  }
+  
+  .subsribeButton1 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 20px 24px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    position: relative;
+    transition: all.4s;
+    border: none;
+    background: #19191B;
+    transition: all.4s;
+  }
+  .subsribeButton1:hover {
+    background-color: #029AFF;
+    transition: all.4s;
+  }

@@ -1,0 +1,53 @@
+'use client'
+
+import React, { useEffect, useState } from 'react';
+import ReactPaginate from 'react-paginate';
+
+// Example items, to simulate fetching from another resource.
+const items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+
+function Items({ currentItems }: { currentItems: number[] }) {
+  return (
+    <>
+      {currentItems.map((item) => (
+        <div key={item}>
+          <h3>Item #{item}</h3>
+        </div>
+      ))}
+    </>
+  );
+}
+
+export default function PaginatedItems({ itemsPerPage }: { itemsPerPage: number }) {
+  // Here we use item offsets; we could also use page offsets
+  // following the API or data you're working with.
+  const [itemOffset, setItemOffset] = useState(0);
+
+  // Simulate fetching items from another resource.
+  // (This could be items from props or items loaded in a local state
+  // from an API endpoint with useEffect and useState)
+  const endOffset = itemOffset + itemsPerPage;
+  const currentItems = items.slice(itemOffset, endOffset);
+  const pageCount = Math.ceil(items.length / itemsPerPage);
+
+  // Invoke when the user clicks to request another page.
+  const handlePageClick = (event: { selected: number }) => {
+    const newOffset = (event.selected * itemsPerPage) % items.length;
+    setItemOffset(newOffset);
+  };
+
+  return (
+    <>
+      <Items currentItems={currentItems} />
+      <ReactPaginate
+        breakLabel="..."
+        nextLabel="next >"
+        onPageChange={handlePageClick}
+        pageRangeDisplayed={5}
+        pageCount={pageCount}
+        previousLabel="< previous"
+        renderOnZeroPageCount={null}
+      />
+    </>
+  );
+}

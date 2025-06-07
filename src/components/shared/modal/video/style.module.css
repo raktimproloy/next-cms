@@ -1,0 +1,99 @@
+.modalContainer{
+    transition: all 0.4s ease-in-out;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+}
+.modalHide{
+    transform: scale(0);
+    opacity: 0;
+    visibility: hidden;
+}
+.modalShow{
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+.viewContent{
+    display: block;
+}
+.hideContent{
+    display: none;
+}
+.video {
+    position: fixed;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    border: none;
+    z-index: 999;
+  }
+
+  .videoContainer{
+    position: relative;
+    transition: all .3s ease-in-out;
+  }
+  .close_btn {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: -5%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 20px;
+    cursor: pointer; 
+    border: 2px solid black;
+    background-color: white;
+    transition: all .3s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 99999;
+  }
+
+  .videoContainer:hover .close_btn{
+    top: 20%;
+    visibility: visible;
+    opacity: 1;
+  }
+  .popup_bg {
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    position: fixed;
+  }
+  .popup_content {
+    background: black;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: auto;
+  }
+  .popup_title {
+    padding: 30px;
+    margin: 0 auto;
+    color: red;
+    text-transform: uppercase;
+  }
+  
+  /* Media queries for Tablet */
+@media only screen and (max-width: 768px) {
+  .popup_content {
+    left: 0;
+    width: 100%;
+  }
+  .close_btn {
+    left: auto;
+  }
+}

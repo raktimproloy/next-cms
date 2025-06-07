@@ -1,0 +1,29 @@
+.active{
+    color: #0263e0!important;
+}
+
+.megaMenuDropdown{
+    /* display: block; */
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s ease-in-out;
+    top: 90%;
+    width: 25rem;
+    transform: translateX(-40%);
+}
+.megaMenu:hover .megaMenuDropdown{
+    opacity: 1;
+    visibility: visible;
+    top: 75%;
+}
+.tagLine{
+    transition: all .3s ease-in-out;
+}
+.svgHover:hover .tagLine{
+    color: white !important;
+}
+
+.svgHover:hover svg{
+    transition: all .3s ease-in-out;
+    color: white !important;
+}

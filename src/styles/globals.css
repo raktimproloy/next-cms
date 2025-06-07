@@ -1,0 +1,29 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-inter);
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+
+.active a{
+    background: var(--business-consulting, #029AFF) !important;
+    box-shadow: 0px 4px 10px rgba(122, 120, 198, 0.2) !important;
+    transition: all 0.3s !important;
+    color: #ffffff !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

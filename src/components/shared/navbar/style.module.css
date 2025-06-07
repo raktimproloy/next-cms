@@ -1,0 +1,35 @@
+.topNavbarIcon svg path{
+    color: #FF7A7A;
+}
+.topNavbarIcon{
+    height: 5rem;
+    cursor: pointer;
+}
+.shortText{
+    display: none;
+}
+.background{
+    height: 35px;
+}
+
+@media screen and (max-width: 1024px){
+    .setTop{
+        top: 0 !important;
+        transition: all .3s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .background{
+        height: 60px;
+    }
+    .shortText{
+        display: block;
+    }
+    .fullText{
+        display: none;
+    }
+    .iconText{
+        display: block;
+    }
+}

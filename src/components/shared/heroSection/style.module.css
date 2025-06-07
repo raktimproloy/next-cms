@@ -1,0 +1,8 @@
+.sectionHero {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+  }

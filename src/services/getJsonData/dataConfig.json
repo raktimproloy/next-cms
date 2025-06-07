@@ -1,0 +1,15 @@
+
+{
+    "aboutApprochProgress": "@/store/json/aboutPage/approchProgress.json",
+    "homeAboutProgress": "@/store/json/homePage/homeAbout.json",
+    "homeBlog": "@/store/json/homePage/homeBlog.json",
+    "homeCounter": "@/store/json/homePage/homeCounter.json",
+    "homeServices": "@/store/json/homePage/homeService.json",
+    "blogs": "@/store/json/blogPage/blogs.json",
+    "blogRecentPost": "@/store/json/shared/blogPage/recentPost.json",
+    "testimonial": "@/store/json/shared/testimonial/testimonial.json",
+    "services": "@/store/json/servicePage/services.json",
+    "location": "@/store/json/contactPage/Location.json",
+    "aboutAdvisolCounter": "@/store/json/aboutPage/advisolCounter.json"
+  }
+  

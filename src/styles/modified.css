@@ -1,0 +1,194 @@
+/* 
+######### Background color ##########
+
+#0421FC
+#8ED046
+#005247
+#00E8CE
+#FF6BFF
+#292F43
+#111111
+
+
+######### Text color ##########
+#ffffff         white
+#000000         black
+
+####### main color #########
+#EC2628        red
+#FCDF04         yellow
+
+########## button color ##########
+#40C9A8
+#0FCA88
+
+
+########## Total color ##########
+background color = 3 type
+highlight text color / main theme = 1 type
+basic text color = 2 type
+hovar color = 2 type
+button color = 1 type
+*/
+
+
+
+/* Navbar Background color on scroll */
+.backgroundOne{
+    background-color: #292F43 !important;
+}
+/* on top navbar background color */
+.backgroundOneDefault{
+    background-color: #4e2e2e6b!important;
+}
+.main-menu-ex li a{
+    color: white;
+}
+/* Navbar text color */
+.normalColorTwo{
+    color: #ffa7a7 !important;
+}
+
+/* Navbar active color */
+.activeColor{
+    color: #EC2628 !important;
+}
+
+/* Navbar text color hover */
+.main-menu-ex li a:hover{
+    color: #EC2628 !important;
+}
+
+.sub-menu li a:hover{
+    color: white !important;
+    background-color: #EC2628 !important;
+}
+/* Navbar mobile text color */
+.mobile-nav li a{
+    color: white;
+}
+.sidenavText p{
+    color: rgb(201, 201, 201);
+}
+.sidenavText a{
+    color: white;
+}
+.sidebarIcon svg{
+    height: 22px;
+    width: 22px;
+}
+.sidebarIcon:hover{
+    color: #EC2628 !important;
+}
+
+.hadding1 h1 span.after::after {
+    background-image: none;
+    background-color: #ec262878;
+}
+/* section title color */
+.hadding1 span.span{
+    color: #EC2628 !important;
+}
+/* Button default */
+.buttonColor{
+    background-color: #FF7A7A !important;
+}
+.buttonColor:hover{
+    color: black;
+}
+.buttonColor::before {
+    content: "";
+    background-color: #FF7A7A !important;
+}
+/* Button hover */
+.buttonColor::after {
+    content: "";
+    background-color: #FCDF04;
+}
+/* Subscribe section button */
+.buttonColorTwo{
+    background-color: #FF7A7A !important;
+}
+.buttonColorTwo:hover{
+    color: black;
+    background-color: #FCDF04 !important;
+}
+
+/* Footer icon color */
+.social1 ul li a{
+    border: 1px solid #ec262981;
+}
+.social1 ul li a:hover {
+    background-color: #EC2628;
+    color: #fff;
+}
+
+/* Footer link hover color */
+.single-footer ul li a:hover {
+    color:#EC2628 ;
+}
+
+
+
+
+/*  ###########  Home Page Color   ############# */
+
+/* about progress bar */
+.proggress{
+    background-color: #EC2628 !important;
+}
+
+/* choose us icon background color */
+.choose-box-icon span {
+    background: #EC2628;
+}
+
+/* Testimonial */
+.testiminial1-review-icons ul svg{
+    color: #EC2628 !important;
+}
+
+/* blog section title hover */
+.hadding1 h3 a:hover {
+    color: #EC2628;
+}
+/* blog section view all */
+.learn-more-btn1:hover{
+    color: #EC2628;
+}
+
+/* Contact section icon background */
+.contact3-icon.contact3-icon1 {
+    background: #D3ECFC;
+}
+
+
+/* ########## About page ######### */
+
+.about-trusted-counter h1{
+    color: #EC2628;
+}
+
+/*  ########### Service page ############ */
+.service-box-iocn {
+    background-color: #E6F5FF;
+}
+
+/*  ######### Blog page ########## */
+/* Blog card title hover */
+.hadding1 h4 a:hover {
+    color: #029AFF;
+}
+.blogBtn{
+    background-color: #0FCA88 !important;
+}
+.blogBtn:hover{
+    background-color: #FCDF04 !important;
+}
+.hadding1 h2:first-child{
+    margin-top: 0;
+}
+.hadding1 h2{
+    margin-top: 2rem;
+}
+

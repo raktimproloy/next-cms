@@ -1,0 +1,29 @@
+{
+    "propertyName": "testimonial",
+    "data":[
+        {
+            "id": 1,
+            "rating": 5,
+            "review": "You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change.",
+            "name": "Jenny Wilson",
+            "position": "Chief Marketing Officer",
+            "image": "testimonial1-img2.png"
+        },
+        {
+            "id": 2,
+            "rating": 5,
+            "review": "You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change.",
+            "name": "Jacob Jones",
+            "position": "Chief Marketing Officer",
+            "image": "testimonial1-img1.png"
+        },
+        {
+            "id": 3,
+            "rating": 5,
+            "review": "You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change.",
+            "name": "Jenny Wilson",
+            "position": "Chief Marketing Officer",
+            "image": "testimonial1-img3.png"
+        }
+    ]
+}

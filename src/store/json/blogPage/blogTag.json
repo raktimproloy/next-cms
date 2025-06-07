@@ -1,0 +1,17 @@
+{
+    "propertyName": "blogs",
+    "data": [
+        {
+            "id": 1,
+            "tag": "Business consult"
+        },
+        {
+            "id": 2,
+            "tag": "Consultant"
+        },
+        {
+            "id": 3,
+            "tag": "Consulting"
+        }
+    ]
+}

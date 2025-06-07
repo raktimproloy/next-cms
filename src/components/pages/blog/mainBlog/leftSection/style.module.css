@@ -1,0 +1,27 @@
+.blogImage{
+    height: 10rem;
+}
+.detailsBtn{
+  background-color: black;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  padding: 10px 14px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  transition: all.4s;
+  border: none;
+}
+.detailsBtn:hover {
+  transform: translateY(-5px);
+  background-color: #0263e0;
+}
+.detailsBtn a{
+  color: white;
+}
+@media screen and (max-width: 769px) {
+    .blogImage {
+      height: 12rem;
+  }
+}

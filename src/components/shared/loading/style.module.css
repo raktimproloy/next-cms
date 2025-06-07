@@ -1,0 +1,191 @@
+.preloaderInner {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #080808bf;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 99999;
+    opacity: 1;
+    visibility: visible;
+}
+.loaderHidden{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: all .5s ease-in-out;
+}
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
+    background: #00000047;
+    border: 6px solid #ffffff00;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 150px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #f9a813;
+    letter-spacing: 4px;
+    text-shadow: 0 0 10px #000000ad;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgb(153 146 255 / 50%);
+    z-index: 99999;
+}
+
+.loader::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 3px solid transparent;
+    border-top: 3px solid #cc2336;
+    border-right: 3px solid #cca32e;
+    border-radius: 50%;
+    -webkit-animation: animateCircle 2s linear infinite;
+    animation: animateCircle 2s linear infinite;
+}
+
+.loader span {
+    display: block;
+    position: absolute;
+    top: calc(50% - 2px);
+    left: 50%;
+    width: 50%;
+    height: 4px;
+    background: transparent;
+    -webkit-transform-origin: left;
+    -ms-transform-origin: left;
+    transform-origin: left;
+    -webkit-animation: animate 2s linear infinite;
+    animation: animate 2s linear infinite; }
+
+.loader span::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    right: -8px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background: linear-gradient(45deg, #a61313, #cc3a33,#a61313);
+    -webkit-box-shadow: 0 0 10px #cc1433;
+    box-shadow: 0 0 10px #cc1433;
+}
+
+@-webkit-keyframes animateCircle {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg); }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); } }
+
+@keyframes animateCircle {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg); }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); } }
+
+@-webkit-keyframes animate {
+    0% {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg); }
+    100% {
+        -webkit-transform: rotate(405deg);
+        transform: rotate(405deg); } }
+
+
+
+
+
+
+
+/* Simple Loader style */
+
+.simple_loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
+    background: #00000047;
+    border: 6px solid #ffffff00;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 150px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #f9a813;
+    letter-spacing: 4px;
+    text-shadow: 0 0 10px #000000ad;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgb(153 146 255 / 50%);
+    z-index: 9;
+}
+
+.simple_loader::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 3px solid transparent;
+    border-top: 3px solid #cc2336;
+    border-right: 3px solid #cca32e;
+    border-radius: 50%;
+    -webkit-animation: animateCircle 2s linear infinite;
+    animation: animateCircle 2s linear infinite;
+}
+
+.simple_loader span {
+    display: block;
+    position: absolute;
+    top: calc(50% - 2px);
+    left: 50%;
+    width: 50%;
+    height: 4px;
+    background: transparent;
+    -webkit-transform-origin: left;
+    -ms-transform-origin: left;
+    transform-origin: left;
+    -webkit-animation: animate 2s linear infinite;
+    animation: animate 2s linear infinite; }
+
+.simple_loader span::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    right: -8px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background: linear-gradient(45deg, #a61313, #cc3a33,#a61313);
+    -webkit-box-shadow: 0 0 10px #cc1433;
+    box-shadow: 0 0 10px #cc1433;
+}

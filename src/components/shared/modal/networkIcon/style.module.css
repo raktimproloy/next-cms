@@ -1,0 +1,19 @@
+.iconsBg{
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.iconsBgGoogle{
+    width: 34px;
+    height: 34px;
+}
+
+.iconsBg:hover{
+    background-color: #EC2628;
+}

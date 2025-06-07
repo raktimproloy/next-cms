@@ -1,0 +1,19 @@
+{   
+    "website": "Advisol",
+    "websiteLogo": "", 
+    "email": "info@nextctl.com",
+
+    "phone": "+880-170-1064-309",
+    "whatsapp": "+8801717330748",
+    "address": "House:18,Road:4,Block:J,Banasree",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "bd_map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.5260740834033!2d90.4286267!3d23.764274000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7ca31e6e535%3A0x247d869887223c94!2sNextCTL!5e0!3m2!1sen!2sbd!4v1696144765143!5m2!1sen!2sbd",
+
+    "uk_map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.835988450263!2d-1.3394077999999998!3d50.90825079999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4874719a8a033b0d%3A0x25b689c933dfee4b!2s481%20Hinkler%20Rd%2C%20Thornhill%2C%20Southampton%20SO19%206DN%2C%20UK!5e0!3m2!1sen!2sbd!4v1696145052432!5m2!1sen!2sbd",
+    "other_phone": "+44-789-707-228",
+    "other_whatsapp": "+44-789-707-228",
+    "other_address": "481 Hinkler Road,",
+    "other_city": "Southampton",
+    "other_country": "England"
+}

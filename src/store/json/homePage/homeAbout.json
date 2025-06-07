@@ -1,0 +1,29 @@
+{
+    "propertyName": "homeAbout",
+    "data":[
+        {
+            "id": 1,
+            "title": "Cutting-Edge Web Development",
+            "percent": 100,
+            "animationDuration": "1400"
+        },
+        {
+            "id": 2,
+            "title": "Custom Software Solutions",
+            "percent": 96,
+            "animationDuration": "900"
+        },
+        {
+            "id": 3,
+            "title": "Scalable Cloud Services",
+            "percent": 98,
+            "animationDuration": "900"
+        },
+        {
+            "id": 4,
+            "title": "Comprehensive IT Consulting",
+            "percent": 99,
+            "animationDuration": "900"
+        }
+    ]
+}

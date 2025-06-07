@@ -1,0 +1,48 @@
+.modalContainer{
+    transition: all 0.4s ease-in-out;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.modalHide{
+    transform: scale(0);
+    opacity: 0;
+    visibility: hidden;
+}
+.modalShow{
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+.modalContent{
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 100px;
+}
+.modalImage{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+.modalClose:focus{
+    box-shadow: 0px 0px 0px transparent !important;
+}
+.modalInput{
+    font-size: .8rem !important;
+}
+.modalInput:focus{
+    outline: 0 !important;
+    /* border-color: #FCDF04 !important; */
+    border-color: #dac000 !important;
+    box-shadow: 0px 0px 0px transparent !important;
+}
+
+.popup_bg {
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+  }
+    
